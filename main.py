@@ -9,6 +9,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
         
     def init_ui(self):
+        ...
         
 
 if __name__ == "__main__":
