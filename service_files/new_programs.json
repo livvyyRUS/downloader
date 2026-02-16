@@ -7,7 +7,7 @@
         },
         {
             "name": "WinRAR v7.20",
-            "icon": "",
+            "icon": "https://raw.githubusercontent.com/livvyyRUS/downloader/refs/heads/master/service_files/logos/winrar_logo.png",
             "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-720.exe"
         }
     ]
