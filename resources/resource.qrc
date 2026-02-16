@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>../icons/download.png</file>
+    <file>../icons/download_and_install.png</file>
+    <file>../icons/install.png</file>
+  </qresource>
+</RCC>

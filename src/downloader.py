@@ -9,27 +9,31 @@ class Downloader(object):
         self.url = default_file
         
     def init_dir(self):
-        os.mkdir("downloaded")
-        os.mkdir("icons")
-        os.mkdir("service_files")
+        os.makedirs("downloaded", exist_ok=True)
+        os.makedirs("icons", exist_ok=True)
+        os.makedirs("service_files", exist_ok=True)
         
     def set_url(self, new_url: str):
         self.url = default_file
         
     def upload_file(self) -> bool:
-        try:
-            response = httpx.get(self.url)
-            with open("service_files\\programs.json", 'w', encoding="utf8") as file:
-                file.write(response.text)
-            return True
-        except:
-            return False
+        return self.download_file("service_files\\programs.json", self.url)
         
         
-    def load_file(self) -> ProgramFiles:
-        with open("service_files\\programs.json", 'w', encoding="utf8") as file:
+    def load_config(self) -> ProgramFiles:
+        with open("service_files\\programs.json", 'r', encoding="utf8") as file:
             data = file.read()
         program_files: ProgramFiles = ProgramFiles.model_validate_json(data)
         return program_files
         
+        
+    def download_file(self, path: str, url: str):
+        try:
+            response = httpx.get(url)
+            with open(path, 'bw') as file:
+                file.write(response.content)
+            return True
+        except Exception as e:
+            print(e)
+            return False
     

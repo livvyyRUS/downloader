@@ -39,10 +39,10 @@ class Ui_MainWindow(object):
 
         self.verticalLayout.addWidget(self.label)
 
-        self.listWidget = QListWidget(self.centralwidget)
-        self.listWidget.setObjectName(u"listWidget")
+        self.list_widget = QListWidget(self.centralwidget)
+        self.list_widget.setObjectName(u"list_widget")
 
-        self.verticalLayout.addWidget(self.listWidget)
+        self.verticalLayout.addWidget(self.list_widget)
 
         self.label_2 = QLabel(self.centralwidget)
         self.label_2.setObjectName(u"label_2")
@@ -51,15 +51,15 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout = QHBoxLayout()
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.lineEdit = QLineEdit(self.centralwidget)
-        self.lineEdit.setObjectName(u"lineEdit")
+        self.link_line_edit = QLineEdit(self.centralwidget)
+        self.link_line_edit.setObjectName(u"link_line_edit")
 
-        self.horizontalLayout.addWidget(self.lineEdit)
+        self.horizontalLayout.addWidget(self.link_line_edit)
 
-        self.set_link = QPushButton(self.centralwidget)
-        self.set_link.setObjectName(u"set_link")
+        self.set_link_button = QPushButton(self.centralwidget)
+        self.set_link_button.setObjectName(u"set_link_button")
 
-        self.horizontalLayout.addWidget(self.set_link)
+        self.horizontalLayout.addWidget(self.set_link_button)
 
 
         self.verticalLayout.addLayout(self.horizontalLayout)
@@ -90,7 +90,7 @@ class Ui_MainWindow(object):
         self.action_2.setText(QCoreApplication.translate("MainWindow", u"\u041e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u0418\u043b\u0438 \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0443\u044e \u0441\u0441\u044b\u043b\u043a\u0443 \u0441 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u043c", None))
-        self.set_link.setText(QCoreApplication.translate("MainWindow", u"\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043a\u043e\u043d\u0444\u0438\u0433", None))
+        self.set_link_button.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b", None))
         self.menu.setTitle(QCoreApplication.translate("MainWindow", u"\u041c\u0435\u043d\u044e", None))
     # retranslateUi
 

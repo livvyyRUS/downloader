@@ -1,7 +1,9 @@
-[
-    {
-        "name": "VS Code",
-        "icon": "https://code.visualstudio.com/assets/branding/code-stable.png",
-        "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
-    }
-]
+{
+    "programs": [
+        {
+            "name": "VS Code",
+            "icon": "https://code.visualstudio.com/assets/branding/code-stable.png",
+            "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+        }
+    ]
+}

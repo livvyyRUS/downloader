@@ -23,7 +23,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QListWidget" name="listWidget"/>
+     <widget class="QListWidget" name="list_widget"/>
     </item>
     <item>
      <widget class="QLabel" name="label_2">
@@ -35,12 +35,12 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="link_line_edit"/>
       </item>
       <item>
-       <widget class="QPushButton" name="set_link">
+       <widget class="QPushButton" name="set_link_button">
         <property name="text">
-         <string>Установить конфиг</string>
+         <string>Загрузить программы</string>
         </property>
        </widget>
       </item>

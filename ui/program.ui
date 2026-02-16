@@ -6,25 +6,73 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>505</width>
-    <height>82</height>
+    <width>775</width>
+    <height>65</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>150</width>
+    <height>60</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Program</string>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout_2">
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <widget class="QLabel" name="icon_label">
+     <property name="minimumSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>Название программы</string>
-       </property>
-      </widget>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Название программы</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="status_label">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QProgressBar" name="progress_bar">
+       <property name="toolTip">
+        <string>asd</string>
+       </property>
+       <property name="statusTip">
+        <string>asd</string>
+       </property>
+       <property name="whatsThis">
+        <string>asd</string>
+       </property>
        <property name="value">
         <number>24</number>
        </property>
@@ -43,7 +91,11 @@
         </size>
        </property>
        <property name="text">
-        <string>...</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/resource.qrc">
+         <normaloff>:/icons/icons/download.png</normaloff>:/icons/icons/download.png</iconset>
        </property>
       </widget>
      </item>
@@ -56,7 +108,11 @@
         </size>
        </property>
        <property name="text">
-        <string>...</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/resource.qrc">
+         <normaloff>:/icons/icons/install.png</normaloff>:/icons/icons/install.png</iconset>
        </property>
       </widget>
      </item>
@@ -69,7 +125,11 @@
         </size>
        </property>
        <property name="text">
-        <string>...</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/resource.qrc">
+         <normaloff>:/icons/icons/download_and_install.png</normaloff>:/icons/icons/download_and_install.png</iconset>
        </property>
       </widget>
      </item>
@@ -77,6 +137,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resources/resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
