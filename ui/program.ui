@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Program</class>
+ <widget class="QWidget" name="Program">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>82</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Program</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Название программы</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progress_bar">
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="download_button">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="install_button">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="download_and_install_button">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
