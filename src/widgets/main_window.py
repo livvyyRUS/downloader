@@ -39,6 +39,13 @@ class MainWindow(QMainWindow):
             
         
     def set_link_action(self):
+        text = self.ui.link_line_edit.text()
+        if text:
+            self.downloader.set_url(text)
+        else:
+            self.downloader.set_url(default_file)
+        print(text)
+        self.downloader.upload_file()
         self.program_files = self.downloader.load_config()
         self.show_program_files()
         

@@ -14,14 +14,14 @@ class Downloader(object):
         os.makedirs("service_files", exist_ok=True)
         
     def set_url(self, new_url: str):
-        self.url = default_file
+        self.url = new_url
         
     def upload_file(self) -> bool:
-        return self.download_file("service_files\\programs.json", self.url)
+        return self.download_file("config.json", self.url)
         
         
     def load_config(self) -> ProgramFiles:
-        with open("service_files\\programs.json", 'r', encoding="utf8") as file:
+        with open("config.json", 'r', encoding="utf8") as file:
             data = file.read()
         program_files: ProgramFiles = ProgramFiles.model_validate_json(data)
         return program_files
