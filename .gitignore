@@ -10,5 +10,9 @@ downloaded/**
 downloaded/*
 downloaded/
 
+icons/downloaded/**
+icons/downloaded/*
+icons/downloaded/
+
 # Virtual environments
 .venv

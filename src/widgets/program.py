@@ -33,7 +33,7 @@ class UI_Program(QWidget):
         
     def set_icon(self):
         self.downloader.init_dir()
-        path = f"icons\\{self.name}.png"
+        path = f"icons\\downloaded\\{self.name}.png"
         answer = self.downloader.download_file(path, self.icon)
         
         if answer:
