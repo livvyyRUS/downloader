@@ -1,1 +1,1 @@
-file = ""
+default_file = "https://raw.githubusercontent.com/livvyyRUS/downloader/refs/heads/master/service_files/programs.json"
