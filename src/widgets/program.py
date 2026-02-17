@@ -52,7 +52,7 @@ class UI_Program(QWidget):
         self.ui.progress_bar.show()
         self.ui.status_label.setText("Загрузка...")
         try:
-            with httpx.stream("GET", self.url, follow_redirects=True) as response:
+            with httpx.stream("GET", self.url, follow_redirects=True, verify=False) as response:
                 # Проверяем, прислал ли сервер размер файла
                 total_size = int(response.headers.get("Content-Length", 0))
                 

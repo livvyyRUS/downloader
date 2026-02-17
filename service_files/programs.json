@@ -4,6 +4,101 @@
             "name": "VS Code",
             "icon": "https://code.visualstudio.com/assets/branding/code-stable.png",
             "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+        },
+        {
+            "name": "WinRAR v7.20",
+            "icon": "https://raw.githubusercontent.com/livvyyRUS/downloader/refs/heads/master/service_files/logos/winrar_logo.png",
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-720.exe"
+        },
+        {
+            "name": "PeaZip",
+            "icon": "https://raw.githubusercontent.com/PeaZip/peazip-builds/refs/heads/master/logo/peazip_icon_256.png",
+            "url": "https://github.com/peazip/PeaZip/releases/download/9.9.0/peazip-9.9.0.WIN64.exe"
+        },
+        {
+            "name": "IZArc",
+            "icon": "https://www.izarc.org/images/izarc_logo.png",
+            "url": "https://www.izarc.org/downloads/IZArc.exe"
+        },
+        {
+            "name": "Google Chrome",
+            "icon": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg",
+            "url": "https://dl.google.com/chrome/install/ChromeStandaloneSetup64.exe"
+        },
+        {
+            "name": "Mozilla Firefox",
+            "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg",
+            "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=ru"
+        },
+        {
+            "name": "Brave Browser",
+            "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg",
+            "url": "https://laptop-updates.brave.com/latest/winx64"
+        },
+        {
+            "name": "LibreOffice",
+            "icon": "https://www.libreoffice.org/themes/libreofficenew/images/logo.png",
+            "url": "https://download.documentfoundation.org/libreoffice/stable/latest/win/x86_64/LibreOffice_latest_Win_x86-64.msi"
+        },
+        {
+            "name": "7-Zip",
+            "icon": "https://www.7-zip.org/7ziplogo.png",
+            "url": "https://www.7-zip.org/a/7z2409-x64.exe"
+        },
+        {
+            "name": "VLC Media Player",
+            "icon": "https://www.videolan.org/images/vlc-logo.svg",
+            "url": "https://get.videolan.org/vlc/last/win64/vlc-win64-latest.exe"
+        },
+        {
+            "name": "qBittorrent",
+            "icon": "https://www.qbittorrent.org/qb_logo.png",
+            "url": "https://sourceforge.net/projects/qbittorrent/files/latest/download"
+        },
+        {
+            "name": "Notepad++",
+            "icon": "https://notepad-plus-plus.org/favicon.ico",
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.1/npp.8.7.1.Installer.x64.exe"
+        },
+        {
+            "name": "GIMP",
+            "icon": "https://www.gimp.org/images/frontpage/wilber-icon.svg",
+            "url": "https://download.gimp.org/mirror/pub/gimp/latest/windows/gimp-latest-setup.exe"
+        },
+        {
+            "name": "ShareX",
+            "icon": "https://getsharex.com/img/sharex_icon_256.png",
+            "url": "https://github.com/ShareX/ShareX/releases/latest/download/ShareX-latest.exe"
+        },
+        {
+            "name": "Kaspersky Virus Removal Tool",
+            "icon": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2016/10/05221123/kvrt-icon.png",
+            "url": "https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "https://bitwarden.com/images/favicon.ico",
+            "url": "https://github.com/bitwarden/desktop/releases/latest/download/Bitwarden-Installer-2025.1.0.exe"
+        },
+        {
+            "name": "Audacity",
+            "icon": "https://www.audacityteam.org/favicon.ico",
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-win-3.7.1-64bit.exe"
+        },
+        {
+            "name": "OBS Studio",
+            "icon": "https://obsproject.com/favicon.ico",
+            "url": "https://github.com/obsproject/obs-studio/releases/latest/download/OBS-Studio-30.2.3-Windows-Installer.exe"
+        },
+        {
+            "name": "Discord",
+            "icon": "https://discord.com/assets/favicon.ico",
+            "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64"
+        },
+        {
+            "name": "Telegram Desktop",
+            "icon": "https://telegram.org/favicon.ico",
+            "url": "https://updates.tdesktop.com/tsetup/tsetup-x64.exe"
         }
     ]
 }

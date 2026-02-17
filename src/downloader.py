@@ -29,11 +29,16 @@ class Downloader(object):
         
     def download_file(self, path: str, url: str):
         try:
-            response = httpx.get(url)
-            with open(path, 'bw') as file:
-                file.write(response.content)
-            return True
+            with httpx.stream("GET", url, follow_redirects=True, verify=False) as response:
+                if response.status_code != 200:
+                    return False
+
+                with open(path, "wb") as file:
+                    for chunk in response.iter_bytes(chunk_size=8192):
+                        file.write(chunk)
+                
+                return True
         except Exception as e:
-            print(e)
+            print(f"Ошибка загрузки: {e}")
             return False
     
