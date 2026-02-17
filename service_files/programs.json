@@ -12,7 +12,7 @@
         },
         {
             "name": "PeaZip",
-            "icon": "https://raw.githubusercontent.com/PeaZip/peazip-builds/refs/heads/master/logo/peazip_icon_256.png",
+            "icon": "https://peazip.github.io/peazip-logo.png",
             "url": "https://github.com/peazip/PeaZip/releases/download/9.9.0/peazip-9.9.0.WIN64.exe"
         },
         {
@@ -38,7 +38,7 @@
         {
             "name": "LibreOffice",
             "icon": "https://www.libreoffice.org/themes/libreofficenew/images/logo.png",
-            "url": "https://download.documentfoundation.org/libreoffice/stable/latest/win/x86_64/LibreOffice_latest_Win_x86-64.msi"
+            "url": "https://download.documentfoundation.org/libreoffice/stable/latest/win/x86_64/LibreOffice_latest_Win_x86-64.exe"
         },
         {
             "name": "7-Zip",
@@ -47,12 +47,12 @@
         },
         {
             "name": "VLC Media Player",
-            "icon": "https://www.videolan.org/images/vlc-logo.svg",
+            "icon": "https://www.videolan.org/favicon.ico",
             "url": "https://get.videolan.org/vlc/last/win64/vlc-win64-latest.exe"
         },
         {
             "name": "qBittorrent",
-            "icon": "https://www.qbittorrent.org/qb_logo.png",
+            "icon": "https://www.qbittorrent.org/favicon.ico",
             "url": "https://sourceforge.net/projects/qbittorrent/files/latest/download"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
             "name": "ShareX",
-            "icon": "https://getsharex.com/img/sharex_icon_256.png",
+            "icon": "https://getsharex.com/favicon.ico",
             "url": "https://github.com/ShareX/ShareX/releases/latest/download/ShareX-latest.exe"
         },
         {
@@ -87,17 +87,17 @@
         },
         {
             "name": "OBS Studio",
-            "icon": "https://obsproject.com/favicon.ico",
-            "url": "https://github.com/obsproject/obs-studio/releases/latest/download/OBS-Studio-30.2.3-Windows-Installer.exe"
+            "icon": "https://obsproject.com/assets/images/new_icon_small-r.png",
+            "url": "https://cdn.obsproject.com/downloads/OBS-Studio-30.2.3-Windows-Installer.exe"
         },
         {
             "name": "Discord",
-            "icon": "https://discord.com/assets/favicon.ico",
+            "icon": "https://discord.com/assets/9f6f9cd156ce35e2d94c0e62e3eff462.ico",
             "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64"
         },
         {
             "name": "Telegram Desktop",
-            "icon": "https://telegram.org/favicon.ico",
+            "icon": "https://telegram.org/img/t_logo.png",
             "url": "https://updates.tdesktop.com/tsetup/tsetup-x64.exe"
         }
     ]
